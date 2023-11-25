@@ -1,0 +1,34 @@
+.container {
+	display      : flex;
+	flex-flow    : row wrap;
+	box-sizing   : border-box;
+	margin-right : auto;
+	margin-left  : auto;
+	max-width    : 1050px;
+}
+
+.card {
+	flex             : 1;
+	display          : flex;
+	flex-flow        : column;
+	margin           : 10px;
+	padding          : 20px;
+	background-color : #fff;
+}
+
+.box {
+	flex             : 1;
+	display          : flex;
+	flex-flow        : column;
+	margin           : 10px;
+	padding          : 20px;
+	background-color : #000000;
+}
+
+.makeRed {
+	color : red;
+}
+
+.makeBlue {
+	color : blue;
+}
